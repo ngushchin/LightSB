@@ -7,7 +7,7 @@ Unpaired Male -> Female translation by our LightSB solver applied in the latent 
 <p align="center"><img src="teaser/teaser.png" width="800" /></p>
 
 ## Repository structure:
-All the experiments are issued in the form of pretty self-explanatory jupyter notebooks (`notebooks/`). For convenience, the majority of the evaluation output is preserved. Auxilary source code is moved to `.py` modules (`src/`). 
+All the experiments are issued in the form of pretty self-explanatory jupyter notebooks (`notebooks/`). Auxilary source code is moved to `.py` modules (`src/`). 
 
 Note that we use `wandb` ([link](https://wandb.ai/site)) dashboard system when launching our experiments. The practitioners are expected to use `wandb` too. 
 
