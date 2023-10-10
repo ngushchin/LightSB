@@ -1,8 +1,8 @@
 # Light Schrödinger Bridge
 
-This repository contains code to reproduce the experiments from our work (LightSB). PyTorch implementation.
+This repository contains the `PyTorch` code to reproduce the experiments from work **Light Schrödinger Bridge** (LightSB paper on [arxiv](https://arxiv.org/abs/2310.01174)) by  [Alexander Korotin](https://scholar.google.ru/citations?user=1rIIvjAAAAAJ&hl=en), [Nikita Gushchin](https://scholar.google.com/citations?user=UaRTbNoAAAAJ&hl=en&oi=ao) and [Evgeny Burnaev](https://scholar.google.ru/citations?user=pCRdcOwAAAAJ&hl=ru).
 
-Unpaired Male -> Female translation by our LightSB solver applied in the latent space of ALAE for 1024x1024 FFHQ images. Our LightSB converges on 4 cpu cores in less than 1 minute.
+**An example:** Unpaired *Male* -> *Female* translation by our LightSB solver applied in the latent space of ALAE for 1024x1024 FFHQ images. *Our LightSB converges on 4 cpu cores in less than 1 minute.*
 
 <p align="center"><img src="teaser/teaser.png" width="800" /></p>
 
@@ -26,3 +26,15 @@ Note that we use `wandb` ([link](https://wandb.ai/site)) dashboard system when l
 ```notebooks/LightSB_single_cell.ipynb``` - Code for single cell experiments.
 
 ```notebooks/LightSB_alae.ipynb``` - Code for image experiments with ALAE.
+
+## Citation
+```
+@misc{korotin2023light,
+      title={Light Schrodinger Bridge}, 
+      author={Alexander Korotin and Nikita Gushchin and Evgeny Burnaev},
+      year={2023},
+      eprint={2310.01174},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
+```
