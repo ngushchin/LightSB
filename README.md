@@ -29,12 +29,12 @@ Note that we use `wandb` ([link](https://wandb.ai/site)) dashboard system when l
 
 ## Citation
 ```
-@misc{korotin2023light,
-      title={Light Schrodinger Bridge}, 
-      author={Alexander Korotin and Nikita Gushchin and Evgeny Burnaev},
-      year={2023},
-      eprint={2310.01174},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@inproceedings{
+korotin2024light,
+title={Light Schr\"odinger Bridge},
+author={Alexander Korotin and Nikita Gushchin and Evgeny Burnaev},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=WhZoCLRWYJ}
 }
 ```
