@@ -173,7 +173,7 @@ class LightSB(nn.Module):
         t = t.to(x.device)
         y = self(x)
         
-        return t*y + (1-t)*x + t*(1-t)*self.epsilon*torch.randn_like(x)
+        return t*y + (1-t)*x + torch.sqrt(t*(1-t)*self.epsilon)*torch.randn_like(x)
     
     
     def get_log_potential(self, x):
