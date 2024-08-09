@@ -1,6 +1,6 @@
 # Light Schrödinger Bridge
 
-This repository contains the `PyTorch` code to reproduce the experiments from work **Light Schrödinger Bridge** (LightSB paper on [arxiv](https://arxiv.org/abs/2310.01174)) by  [Alexander Korotin](https://scholar.google.ru/citations?user=1rIIvjAAAAAJ&hl=en), [Nikita Gushchin](https://scholar.google.com/citations?user=UaRTbNoAAAAJ&hl=en&oi=ao) and [Evgeny Burnaev](https://scholar.google.ru/citations?user=pCRdcOwAAAAJ&hl=ru).
+This repository contains the `PyTorch` code to reproduce the experiments from work **Light Schrödinger Bridge** (LightSB paper on [arxiv](https://arxiv.org/abs/2310.01174) and [OpenReview](https://openreview.net/forum?id=WhZoCLRWYJ)) by  [Alexander Korotin](https://scholar.google.ru/citations?user=1rIIvjAAAAAJ&hl=en), [Nikita Gushchin](https://scholar.google.com/citations?user=UaRTbNoAAAAJ&hl=en&oi=ao) and [Evgeny Burnaev](https://scholar.google.ru/citations?user=pCRdcOwAAAAJ&hl=ru).
 
 **An example:** Unpaired *Male* -> *Female* translation by our LightSB solver applied in the latent space of ALAE for 1024x1024 FFHQ images. *Our LightSB converges on 4 cpu cores in less than 1 minute.*
 
